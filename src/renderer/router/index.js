@@ -50,12 +50,6 @@ export const constantRouterMap = [
       meta: { title: '商品列表', icon: 'product-list' }
     },
     {
-      path: 'article',
-      name: 'article',
-      component: () => import('@/views/pms/product/article'),
-      meta: { title: '文章', icon: '' }
-    },
-    {
       path: 'addProduct',
       name: 'addProduct',
       component: () => import('@/views/pms/product/add'),
